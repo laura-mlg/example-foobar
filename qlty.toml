@@ -1,0 +1,20 @@
+config_version = "0"
+
+exclude_patterns = ["**/node_modules/**","**/vendor/**"]
+
+test_patterns = ["**/test/**", "**/spec/**"]
+
+[[source]]
+name = "default"
+default = true
+
+[[plugin]]
+name = "actionlint"
+
+[[plugin]]
+name = "checkov"
+version = "3.2.49"
+
+[[plugin]]
+name = "markdownlint"
+version = "0.31.1"
