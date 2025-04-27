@@ -42,7 +42,7 @@ Your pull request should now show a smaller decrease in `total-coverage`, and a 
 
 The browser extension will also highlight the newly covered lines in `foo_bar.rb`. 
 ![Screenshot 2023-01-25 at 8 29 32 PM](https://user-images.githubusercontent.com/18341459/214745367-1630cd55-37c7-4b4a-888b-64b1bae5e079.png)
-
+ 
 
 ## Introduce some duplication
 
