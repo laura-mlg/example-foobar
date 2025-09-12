@@ -21,7 +21,7 @@ class FooBar
     list
   end
 
-  def badMethodName                                   # Method name should be snake_case
+  def badMethodName                                   # Method name should be snake_case 
     puts "this method has a bad name"
   end
 
