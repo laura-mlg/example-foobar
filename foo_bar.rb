@@ -18,6 +18,6 @@ class FooBar
       puts "Please enter a positive number"
     end
 
-    list
+    testing stuff
   end
 end
