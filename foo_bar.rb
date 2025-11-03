@@ -17,7 +17,52 @@ class FooBar
       puts "Please enter a positive number"
       puts "Please enter a positive number"
     end
-
     list
   end
+end
+
+def method_one
+  puts "Starting process"
+  puts "Initializing variables"
+  puts "Loading configuration"
+  puts "Connecting to database"
+  puts "Setting up environment"
+  puts "Validating prerequisites"
+  result = calculate_something
+  validate_result(result)
+  check_permissions(result)
+  transform_data(result)
+  save_to_database(result)
+  update_cache(result)
+  send_notification
+  log_activity
+  cleanup_resources
+  finalize_process
+  puts "Process complete"
+  puts "Closing connections"
+  puts "Generating report"
+  puts "All done"
+end
+
+def method_two
+  puts "Starting process"
+  puts "Initializing variables"
+  puts "Loading configuration"
+  puts "Connecting to database"
+  puts "Setting up environment"
+  puts "Validating prerequisites"
+  result = calculate_something
+  validate_result(result)
+  check_permissions(result)
+  transform_data(result)
+  save_to_database(result)
+  update_cache(result)
+  send_notification
+  log_activity
+  cleanup_resources
+  finalize_process
+  puts "Process complete"
+  puts "Closing connections"
+  puts "Generating report"
+  puts "All done"
 end
