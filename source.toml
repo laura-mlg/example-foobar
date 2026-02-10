@@ -6,9 +6,7 @@ default = true
 
 [[plugin]]
 name = "actionlint"
+config_files = ["actionlint.yaml"]
 
 [plugins.definitions.actionlint]
 exported_config_paths = ["actionlint.yaml"]
-
-[plugins.definitions.actionlint.drivers.lint]
-script = "actionlint -config-file actionlint.yaml -format \"{{json .}}\" ${target}"
