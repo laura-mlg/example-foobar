@@ -8,5 +8,5 @@ default = true
 name = "actionlint"
 
 [plugins.definitions.actionlint]
-config_files = ["actionlint.yaml"]
-exported_config_paths = ["actionlint.yaml"]
+config_files = [".github/actionlint.yaml"]
+exported_config_paths = [".github/actionlint.yaml"]
