@@ -8,5 +8,8 @@ default = true
 name = "actionlint"
 
 [plugins.definitions.actionlint]
-config_files = [".github/actionlint.yaml"]
-exported_config_paths = [".github/actionlint.yaml"]
+config_files = ["actionlint.yaml"]
+exported_config_paths = ["actionlint.yaml"]
+
+[plugins.definitions.actionlint.drivers.lint]
+script = "actionlint -config-file ${config_file} -format \"{{json .}}\" ${target}"
