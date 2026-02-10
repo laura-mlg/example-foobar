@@ -1,0 +1,11 @@
+config_version = "0"
+
+[[source]]
+name = "default"
+default = true
+
+[[plugin]]
+name = "actionlint"
+
+[plugins.definitions.actionlint]
+exported_config_paths = [".github/actionlint.yaml"]
